@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane style="-fx-background-color: #2c3e50;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nicholsonplumbingtx.v2.controller.main_form_controller.ReportController">
+   <children>
+      <Pane layoutX="14.0" layoutY="14.0" prefHeight="668.0" prefWidth="1122.0" style="-fx-background-color: #ecf0f1;" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0">
+         <children>
+            <Label layoutX="855.0" layoutY="59.0" text="Ethan Reports">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Button fx:id="projectSupplierContact" layoutX="878.0" layoutY="127.0" mnemonicParsing="false" onAction="#showProjectSupplierContact" text="Project Supplier Contact" />
+            <Button fx:id="quickJDS" layoutX="878.0" layoutY="90.0" mnemonicParsing="false" onAction="#showQuickJDS" text="Quick JDS Report" />
+            <Button fx:id="supplierBalAndDate" layoutX="878.0" layoutY="164.0" mnemonicParsing="false" onAction="#showSupplierBalAndDate" text="Supplier Balance and Due Dates" />
+            <Button fx:id="bankFrequency" layoutX="878.0" layoutY="201.0" mnemonicParsing="false" onAction="#showBankFrequency" text="Bank Use Frequency" />
+            <Button fx:id="importantContactForProjects" layoutX="878.0" layoutY="238.0" mnemonicParsing="false" onAction="#showImportantContactForProjects" text="Important Project Contacts" />
+            <Button fx:id="mostValuableClient" layoutX="878.0" layoutY="276.0" mnemonicParsing="false" onAction="#showMostValuableClient" text="Most Valuable Client" />
+            <Label layoutX="60.0" layoutY="59.0" text="Michelle Reports">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Button fx:id="generalClientContact" layoutX="83.0" layoutY="127.0" mnemonicParsing="false" onAction="#showGeneralClientContact" text="General Client Contact" />
+            <Button fx:id="clientInformation" layoutX="83.0" layoutY="90.0" mnemonicParsing="false" onAction="#showClientInformation" text="Client Information" />
+            <Button fx:id="vendorsPerRegion" layoutX="83.0" layoutY="164.0" mnemonicParsing="false" onAction="#showVendorsPerRegion" text="Vendors per Region" />
+            <Button fx:id="projectInformation" layoutX="83.0" layoutY="201.0" mnemonicParsing="false" onAction="#showProjectInformation" text="Project Information" />
+            <Button fx:id="projectStatusAndContact" layoutX="83.0" layoutY="238.0" mnemonicParsing="false" onAction="#showProjectStatusAndContact" text="Project Status &amp; Contacts" />
+            <Button fx:id="allClientContactInformation" layoutX="83.0" layoutY="276.0" mnemonicParsing="false" onAction="#showClientContactInformation" text="All Client Contact Info" />
+            <Label layoutX="294.0" layoutY="59.0" text="Aaron Reports">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Button fx:id="completeEmployeeInformation" layoutX="317.0" layoutY="127.0" mnemonicParsing="false" onAction="#showEmployeeInformation" text="Complete Employee Information" />
+            <Button fx:id="clientInformation1" layoutX="317.0" layoutY="90.0" mnemonicParsing="false" onAction="#showUnassignedActiveEmployees" text="Unassigned Active Employees" />
+            <Button fx:id="employeeHistoryLog" layoutX="317.0" layoutY="164.0" mnemonicParsing="false" onAction="#showHistoryLog" text="Employee History Log" />
+            <Button fx:id="employeeActiveProject" layoutX="317.0" layoutY="201.0" mnemonicParsing="false" onAction="#showEmployeeActiveProjects" text="Employees by Active Projects" />
+            <Button fx:id="employeeActiveVehicle" layoutX="317.0" layoutY="238.0" mnemonicParsing="false" onAction="#showEmployeeActiveVehicle" text="Employees by Active Vehicles" />
+            <Button fx:id="vehiclesInUse" layoutX="317.0" layoutY="276.0" mnemonicParsing="false" onAction="#showVehiclesInUse" text="Vehicles In Use" />
+            <Label layoutX="605.0" layoutY="59.0" text="Chris Reports">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Button layoutX="628.0" layoutY="127.0" mnemonicParsing="false" onAction="#showVehicleEquipmentLog" text="Vehicle Equipment Log" />
+            <Button layoutX="628.0" layoutY="90.0" mnemonicParsing="false" onAction="#showActiveVehiclesPerProject" text="Active Vehicles on Jobsite" />
+            <Button layoutX="628.0" layoutY="164.0" mnemonicParsing="false" onAction="#showProjectMaterialCost" text="Material Cost per Project" />
+            <Button layoutX="628.0" layoutY="201.0" mnemonicParsing="false" onAction="#showSupplierMostUsed" text="Most Suppliers Used" />
+            <Button layoutX="628.0" layoutY="238.0" mnemonicParsing="false" onAction="#showExpectedCompletionDate" text="Expected Completion Dates" />
+            <Button layoutX="628.0" layoutY="276.0" mnemonicParsing="false" onAction="#showAllProjectStatus" text="Total Project Status" />
+            <Label layoutX="60.0" layoutY="368.0" text="Daniel Reports">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Button layoutX="83.0" layoutY="436.0" mnemonicParsing="false" onAction="#showRecentProjects" text="Recent Projects" />
+            <Button layoutX="83.0" layoutY="399.0" mnemonicParsing="false" onAction="#showOverdueChangeOrders" text="Overdue Change Orders" />
+            <Button layoutX="83.0" layoutY="473.0" mnemonicParsing="false" onAction="#showRecentInvoices" text="Recent Invoices" />
+            <Button layoutX="83.0" layoutY="510.0" mnemonicParsing="false" onAction="#showRecentChangeOrders" text="Most Recent Change Orders" />
+            <Button layoutX="83.0" layoutY="547.0" mnemonicParsing="false" onAction="#showIncompleteProjects" text="Incomplete Projects" />
+            <Button layoutX="83.0" layoutY="585.0" mnemonicParsing="false" onAction="#showOverdueInvoices" text="Overdue Invoices" />
+            <Label layoutX="294.0" layoutY="368.0" text="Robert Reports">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Button layoutX="317.0" layoutY="436.0" mnemonicParsing="false" onAction="#showAllProjects" text="All Projects" />
+            <Button layoutX="317.0" layoutY="399.0" mnemonicParsing="false" onAction="#showActiveCommProjects" text="Active Commercial Projects" />
+            <Button layoutX="317.0" layoutY="473.0" mnemonicParsing="false" onAction="#showEquipmentVendor" text="Approved Equipment Vendor" />
+            <Button layoutX="317.0" layoutY="510.0" mnemonicParsing="false" onAction="#showInactiveSub" text="Inactive Subcontractor Vendor" />
+            <Button layoutX="317.0" layoutY="547.0" mnemonicParsing="false" onAction="#showClientOutUSA" text="New Client Outside USA" />
+            <Button layoutX="317.0" layoutY="585.0" mnemonicParsing="false" onAction="#showInvoiceOverAmount" text="Project Invoice Still Due Over $500" />
+            <Label layoutX="605.0" layoutY="368.0" text="Richard Reports">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Button layoutX="628.0" layoutY="436.0" mnemonicParsing="false" onAction="#showAvailableProducts" text="Available Rental Products" />
+            <Button layoutX="628.0" layoutY="399.0" mnemonicParsing="false" onAction="#showActiveOrders" text="Active Orders" />
+            <Button layoutX="628.0" layoutY="473.0" mnemonicParsing="false" onAction="#showTopTwentyVendors" text="Top 20 Vendors" />
+            <Button layoutX="628.0" layoutY="510.0" mnemonicParsing="false" onAction="#showActiveVendorsByType" text="Active Vendors by Type" />
+            <Button layoutX="628.0" layoutY="547.0" mnemonicParsing="false" onAction="#showTopTwentyRegions" text="Top 20 Regions by Orders" />
+            <Button layoutX="628.0" layoutY="585.0" mnemonicParsing="false" onAction="#showOrderStatus" text="Order Status" />
+            <Label layoutX="855.0" layoutY="368.0" text="Richard Reports">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Button layoutX="878.0" layoutY="436.0" mnemonicParsing="false" onAction="#showActiveClientsPerRegion" text="Active Clients by Region" />
+            <Button layoutX="878.0" layoutY="399.0" mnemonicParsing="false" onAction="#showActiveProjectsPerRegion" text="Active Projects by Region" />
+            <Button layoutX="878.0" layoutY="473.0" mnemonicParsing="false" onAction="#showProjectStaffing" text="Project Staffing Levels" />
+            <Button layoutX="878.0" layoutY="510.0" mnemonicParsing="false" onAction="#showActiveQuotes" text="Active Quotes" />
+            <Button layoutX="878.0" layoutY="547.0" mnemonicParsing="false" onAction="#showVehicleReport" text="Vehicle Report" />
+            <Button layoutX="878.0" layoutY="585.0" mnemonicParsing="false" onAction="#showSupplierContactInfo" text="Supplier Contact Information" />
+            <Separator layoutX="411.0" layoutY="333.0" prefWidth="300.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

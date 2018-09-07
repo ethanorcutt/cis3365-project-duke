@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="500.0" style="-fx-background-color: &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;?import java.lang.*?&gt;&lt;?import javafx.scene.control.*?&gt;&lt;TextField layoutX=&quot;90.0&quot; layoutY=&quot;46.0&quot; xmlns=&quot;http://javafx.com/javafx/8&quot; xmlns:fx=&quot;http://javafx.com/fxml/1&quot; /&gt;;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <Label prefHeight="67.0" prefWidth="184.0" text="Update Project Status" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="400.0" prefWidth="441.0" style="-fx-background-color: #ecf0f1;" BorderPane.alignment="CENTER">
+         <children>
+            <ComboBox layoutX="14.0" layoutY="99.0" prefWidth="150.0" promptText="Project Status" />
+            <Text layoutX="37.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description" wrappingWidth="60.251953125" />
+            <TextArea layoutX="29.0" layoutY="175.0" prefHeight="102.0" prefWidth="443.0" />
+            <Label layoutX="12.0" layoutY="33.0" text="Project ID:" />
+            <Button layoutX="418.0" layoutY="294.0" mnemonicParsing="false" text="Submit" />
+            <Label layoutX="12.0" layoutY="63.0" prefHeight="17.0" prefWidth="55.0" text="Date" />
+            <TextField layoutX="90.0" layoutY="29.0" />
+            <TextField layoutX="90.0" layoutY="59.0" />
+            <Button layoutX="29.0" layoutY="294.0" mnemonicParsing="false" text="Cancel " />
+            <ChoiceBox layoutX="90.0" layoutY="29.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>

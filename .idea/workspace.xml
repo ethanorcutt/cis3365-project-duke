@@ -1,0 +1,2124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Duke_GUI:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/common/Main.java" line="61" mnemonic="8" />
+  </component>
+  <component name="ChangeListManager">
+    <list id="c8cf2ec0-6651-4449-aa2e-dc5ab3da31cd" name="Default" comment="" />
+    <list default="true" id="9c0932eb-c8ce-491d-bc61-7b7115efa0d0" name="V2 Changelist" comment="11/17/16 - Update #3&#10;&#10;Completed:&#10;   - Started implementing new job data sheet form.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="Duke_GUI.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Duke_GUI" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DBConnector.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/database_connector/DBConnector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="463">
+              <caret line="64" column="39" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <marker date="1479256677370" expanded="true" signature="1188:1215" ph="SELECT * FRO... ContactStatus" />
+                <marker date="1479256677370" expanded="true" signature="2308:2333" ph="SELECT * FRO... ContactType" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Ethan Orcutt &lt;izzaboy306@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Development" />
+      </map>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/main_form_controller/ReportViewerController.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/model/contact/Contact.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/model/client/ClientContact.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/model/project/ProjectContact.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/model/supplier/SupplierContact.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/model/vendor/VendorContact.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/common/DataImporter.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/model/client/ClientContactBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/model/contact/ContactBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/model/vendor/VendorContactBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/model/supplier/SupplierContactBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/model/project/ProjectContactBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/common_controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/new_form_controller/customer_screen/NewClientContactController.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/new_form_controller/employee_screen/NewEPAController.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/new_form_controller/customer_screen/NewChangeOrderController.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/new_form_controller/employee_screen/NewEVAController.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/new_form_controller/customer_screen/NewProjectContactController.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/new_form_controller/customer_screen/NewSupplierContactController.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/new_form_controller/customer_screen/NewVendorContactController.java" />
+        <option value="$PROJECT_DIR$/src/resources/edit_forms/editClientContact.fxml" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/database_connector/ProjectDBConnection.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/database_connector/SupplierDBConnection.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/database_connector/VendorDBConnection.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/edit_form_controller/employee_screen/EditEPAController.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/edit_form_controller/employee_screen/EditEVAController.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/model/employee/EmployeeHistory.java" />
+        <option value="$PROJECT_DIR$/src/resources/main_forms/mainApplication.fxml" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/database_connector/DBConnector.java" />
+        <option value="$PROJECT_DIR$/src/resources/main_forms/loadingScreen.fxml" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/main_form_controller/LoadingScreenController.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/common/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/main_form_controller/ReportController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/23f2f308-6695-4eb6-a3b9-b6ffa91e216a/console.sql" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/model/project/Project.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/database_connector/EmployeeDBConnection.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/main_form_controller/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/model/invoice/Invoice.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/database_connector/CustomerDBConnection.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/edit_form_controller/customer_screen/EditProjectContactController.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/edit_form_controller/customer_screen/EditClientContactController.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/edit_form_controller/customer_screen/EditVendorContactController.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/edit_form_controller/customer_screen/EditSupplierContactController.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/new_form_controller/customer_screen/NewInvoiceController.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/common_controller/ContactController.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/edit_form_controller/customer_screen/EditInvoiceController.java" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/database_connector/InvoiceDBConnection.java" />
+        <option value="$PROJECT_DIR$/src/resources/new_forms/newJobDataSheet.fxml" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/main_form_controller/CustomerController.java" />
+        <option value="$PROJECT_DIR$/src/resources/main_forms/customerTab.fxml" />
+        <option value="$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/new_form_controller/customer_screen/NewJDSController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="3456" />
+    <option name="height" value="1426" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code maturity issuesJava</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Hibernate Issues</id>
+          </State>
+          <State>
+            <id>Initialization issuesJava</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>JBoss Seam issues</id>
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java EE issues</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Javadoc issuesJava</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring AOPSpring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Duplicates</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages ProjectPane="true" />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duke_GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duke_GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duke_GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duke_GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duke_GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duke_GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duke_GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duke_GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duke_GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="job_data_sheet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duke_GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duke_GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database_connector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duke_GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duke_GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new_form_controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duke_GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duke_GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new_form_controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="customer_screen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duke_GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duke_GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main_form_controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duke_GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duke_GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duke_GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duke_GUI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="database.data.csv.formats" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Lib" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="duke_gui" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="SQL Server (Microsoft)" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$/Lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.nicholsonplumbingtx.v2" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="advanced" />
+      <recent name="simple" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dropbox\School\Fall 2016\CIS 3365\Project D.U.K.E\Code\Project-Duke\Duke_GUI\src\resources\main_forms" />
+      <recent name="D:\Dropbox\School\Fall 2016\CIS 3365\Project D.U.K.E\Code\Project-Duke\Duke_GUI\src\resources\edit_forms" />
+      <recent name="D:\Dropbox\School\Fall 2016\CIS 3365\Project D.U.K.E\Code\Project-Duke\Duke_GUI\src\resources\new_forms" />
+      <recent name="D:\Dropbox\School\Fall 2016\CIS 3365\Project D.U.K.E\Code\Project-Duke\Duke_GUI\src\com\nicholsonplumbingtx\v2" />
+      <recent name="D:\Dropbox\School\Fall 2016\CIS 3365\Project D.U.K.E\Code\Project-Duke\Duke_GUI\src\advanced" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dropbox\School\Fall 2016\CIS 3365\Project D.U.K.E\Code\Project-Duke\Duke_GUI\src\resources\edit_forms" />
+      <recent name="D:\Dropbox\School\Fall 2016\CIS 3365\Project D.U.K.E\Code\Project-Duke\Duke_GUI\src\resources" />
+      <recent name="D:\Dropbox\School\Fall 2016\CIS 3365\Project D.U.K.E\Code\Project-Duke\Duke_GUI\src\simple" />
+      <recent name="D:\Dropbox\School\Fall 2016\CIS 3365\Project D.U.K.E\Code\Project-Duke\Duke_GUI\src\simple\resources" />
+      <recent name="D:\Dropbox\School\Fall 2016\CIS 3365\Project D.U.K.E\Code\Project-Duke\Duke_GUI\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.V2 Main">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Duke_GUI" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="V2 Main" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.nicholsonplumbingtx.v2.common.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Duke_GUI" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.V2 Main" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8cf2ec0-6651-4449-aa2e-dc5ab3da31cd" name="Default" comment="" />
+      <changelist id="9c0932eb-c8ce-491d-bc61-7b7115efa0d0" name="V2 Changelist" comment="Switched to new list after starting work upon V2 of the program." />
+      <created>1473462135377</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1473462135377</updated>
+      <workItem from="1473462136932" duration="188000" />
+      <workItem from="1473622197657" duration="25077000" />
+      <workItem from="1473693602771" duration="17687000" />
+      <workItem from="1473728366967" duration="5339000" />
+      <workItem from="1474240983507" duration="8099000" />
+      <workItem from="1474251229082" duration="43000" />
+      <workItem from="1474291925052" duration="1111000" />
+      <workItem from="1474293054421" duration="2755000" />
+      <workItem from="1474299699899" duration="23000" />
+      <workItem from="1474299739114" duration="39000" />
+      <workItem from="1474338405206" duration="2329000" />
+      <workItem from="1474389178538" duration="8169000" />
+      <workItem from="1474561058470" duration="599000" />
+      <workItem from="1474564226851" duration="952000" />
+      <workItem from="1474565269399" duration="149000" />
+      <workItem from="1474565764047" duration="856000" />
+      <workItem from="1474831416936" duration="3126000" />
+      <workItem from="1474834574886" duration="2298000" />
+      <workItem from="1474844768763" duration="1710000" />
+      <workItem from="1474846584635" duration="718000" />
+      <workItem from="1474847318907" duration="10573000" />
+      <workItem from="1474915198849" duration="1575000" />
+      <workItem from="1474923904659" duration="1918000" />
+      <workItem from="1474926306571" duration="520000" />
+      <workItem from="1474927111195" duration="2223000" />
+      <workItem from="1474935481682" duration="13000" />
+      <workItem from="1474935564946" duration="2316000" />
+      <workItem from="1474941895312" duration="1890000" />
+      <workItem from="1475246977235" duration="79000" />
+      <workItem from="1475363027655" duration="8759000" />
+      <workItem from="1475428133763" duration="23839000" />
+      <workItem from="1475454101224" duration="7528000" />
+      <workItem from="1475684085451" duration="857000" />
+      <workItem from="1475685089757" duration="575000" />
+      <workItem from="1475685848679" duration="212000" />
+      <workItem from="1475686307759" duration="136000" />
+      <workItem from="1475686879105" duration="3207000" />
+      <workItem from="1475690484365" duration="3846000" />
+      <workItem from="1475695375200" duration="357000" />
+      <workItem from="1475696208292" duration="635000" />
+      <workItem from="1475944920706" duration="4621000" />
+      <workItem from="1475972145367" duration="865000" />
+      <workItem from="1476034404426" duration="4787000" />
+      <workItem from="1476039688962" duration="1072000" />
+      <workItem from="1476040777423" duration="4378000" />
+      <workItem from="1476130386827" duration="15212000" />
+      <workItem from="1476233577609" duration="4114000" />
+      <workItem from="1476237729240" duration="7242000" />
+      <workItem from="1476285645596" duration="605000" />
+      <workItem from="1476289281835" duration="2152000" />
+      <workItem from="1476297541172" duration="29560000" />
+      <workItem from="1476544115944" duration="28831000" />
+      <workItem from="1476644806240" duration="1840000" />
+      <workItem from="1476657811102" duration="1448000" />
+      <workItem from="1476659894602" duration="9226000" />
+      <workItem from="1476802570956" duration="20887000" />
+      <workItem from="1476832652297" duration="53000" />
+      <workItem from="1476834449640" duration="23000" />
+      <workItem from="1476836324464" duration="2761000" />
+      <workItem from="1477494579164" duration="2988000" />
+      <workItem from="1477502396657" duration="1155000" />
+      <workItem from="1477513923411" duration="944000" />
+      <workItem from="1477938993757" duration="27000" />
+      <workItem from="1477939102854" duration="7231000" />
+      <workItem from="1477960893089" duration="10786000" />
+      <workItem from="1477972599331" duration="34000" />
+      <workItem from="1478003015838" duration="17295000" />
+      <workItem from="1478046182415" duration="41000" />
+      <workItem from="1478046298693" duration="10300000" />
+      <workItem from="1478096094449" duration="4241000" />
+      <workItem from="1478103074212" duration="2081000" />
+      <workItem from="1478126546398" duration="19184000" />
+      <workItem from="1478195524104" duration="298000" />
+      <workItem from="1478268352359" duration="11132000" />
+      <workItem from="1478357706338" duration="962000" />
+      <workItem from="1478381781188" duration="95000" />
+      <workItem from="1478445197264" duration="21000" />
+      <workItem from="1478449632109" duration="949000" />
+      <workItem from="1478450593214" duration="24297000" />
+      <workItem from="1478493067413" duration="16000" />
+      <workItem from="1478555218084" duration="225000" />
+      <workItem from="1478557997606" duration="1047000" />
+      <workItem from="1478615085822" duration="64000" />
+      <workItem from="1478651425330" duration="12964000" />
+      <workItem from="1478689318281" duration="16399000" />
+      <workItem from="1478736022049" duration="3774000" />
+      <workItem from="1478741955662" duration="1401000" />
+      <workItem from="1478792637420" duration="140000" />
+      <workItem from="1478874644119" duration="8084000" />
+      <workItem from="1478892926535" duration="137000" />
+      <workItem from="1478959637250" duration="1344000" />
+      <workItem from="1478994823964" duration="148000" />
+      <workItem from="1479051857794" duration="222000" />
+      <workItem from="1479069618082" duration="17375000" />
+      <workItem from="1479229090265" duration="425000" />
+      <workItem from="1479256656319" duration="51000" />
+      <workItem from="1479311665247" duration="9068000" />
+      <workItem from="1479324035366" duration="3302000" />
+      <workItem from="1479332170590" duration="1542000" />
+      <workItem from="1479395414720" duration="9992000" />
+      <workItem from="1480275926330" duration="87000" />
+      <workItem from="1491601935944" duration="16000" />
+    </task>
+    <task id="LOCAL-00014" summary="10/10/2016 Update #1&#10;&#10;Completed:&#10;   - Client Status combobox now correctly loads the client's based on if they're active / inactive.&#10;   - Invoice table now correctly loads all of a Client's invoices. Irregardless of which project the invoice is assigned to.&#10;   - Created new Invoice and InvoiceBuilder classes.&#10;   - Optimized some back-end code.">
+      <created>1476146943434</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1476146943434</updated>
+    </task>
+    <task id="LOCAL-00015" summary="10/11/2016 Update #1&#10;&#10;Goal:&#10;   - Prep the GUI &amp; database for a presentation to the client tomorrow. &#10;   - Success.&#10;&#10;Completed:&#10;   - Exported JavaFX App into a JAR file.&#10;   - Filepaths are properly configured for the JAR to load all FXML files.&#10;   - Connection to database is established correctly &amp; works as expected while in a JAR.">
+      <created>1476245080934</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1476245080934</updated>
+    </task>
+    <task id="LOCAL-00016" summary="10/12/2016 Update #1&#10;&#10;Completed:&#10;   - Added a lot of the FXML documents to resources.&#10;   - Changed naming convention for FXML resources.">
+      <created>1476289615928</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1476289615928</updated>
+    </task>
+    <task id="LOCAL-00017" summary="10/12/2016 Update #2&#10;&#10;Completed:&#10;   - Re-wrote a lot of code.&#10;   - Treview now shows the Clients &amp; their projects.&#10;   - Contact &amp; Invoice table now shower the information of their respective selection.&#10;   - Notes now displays the notes of its respective selection.">
+      <created>1476332124850</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1476332124850</updated>
+    </task>
+    <task id="LOCAL-00018" summary="10/15/2016 Update #1&#10;&#10;Completed:&#10;   - Rewrote a bunch more code.&#10;   - Switched to using tasks &amp; threads in order to off-load the work from the main application thread.&#10;      - Switching to this fixed the lag that was occurring in the application.&#10;   - Introduced an abstract class for loading new screens.&#10;   - Removed the old multi-screen loader system.&#10;      - It didn't allow you to open a screen and sizeToScene().&#10;         - This caused many forms to look out of place or over-sized.&#10;   - Took advantage of Java 8 and replaced most event handlers with lambda's.">
+      <created>1476554590949</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1476554590949</updated>
+    </task>
+    <task id="LOCAL-00019" summary="10/15/2016 Update #2&#10;&#10;Completed:&#10;   - Client and Project notes now load when selected.&#10;   - Notes for each type are saved depending on their type.&#10;   - Updates are sent to the database &amp; work 100%.&#10;   - Customer Tab appears to be 80% functional.">
+      <created>1476558856125</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1476558856125</updated>
+    </task>
+    <task id="LOCAL-00020" summary="10/15/2016 Update #3&#10;&#10;Completed:&#10;   - Switched from 1 main controller for all tabs to 1 controller for each tab.&#10;   - Each new tab is included upon loading.&#10;   - Switched package name.">
+      <created>1476562948537</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1476562948537</updated>
+    </task>
+    <task id="LOCAL-00021" summary="10/15/2016 - Update #4&#10;&#10;Completed:&#10;   - Implemented abstract classes for loading screens &amp; connecting to the database.&#10;   - Split all controller into having their own database connections, that way nothing ever gets overloaded.&#10;      - Also saves time for maintaining the code.&#10;&#10;To-Do:&#10;   - Fix the stupid bug that is causing a null pointer exception when you click an expansion arrow inside TreeView.">
+      <created>1476587989893</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1476587989893</updated>
+    </task>
+    <task id="LOCAL-00022" summary="10/16/2016 - Update #1&#10;&#10;Completed:&#10;   - Fixed the bug that was causing a null pointer exception inside of the treeview event handler.">
+      <created>1476661926728</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1476661926728</updated>
+    </task>
+    <task id="LOCAL-00023" summary="10/16/2016 - Update #2&#10;&#10;Completed:&#10;   - New -&gt; New Invoice now loads the New Invoice screen.&#10;   - New Invoice screen loads all information it needs from the database.&#10;   - Transitioned some methods to new threads to spread some of the work.&#10;   - Fixed all SQL statements to include a &quot;Order by ASC&quot;. Everything now loads alphabetically.">
+      <created>1476667107885</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1476667107885</updated>
+    </task>
+    <task id="LOCAL-00024" summary="10/16/2016 - Update #3&#10;&#10;Completed:&#10;   - Implemented the Save and Cancel buttons.">
+      <created>1476668478565</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1476668478565</updated>
+    </task>
+    <task id="LOCAL-00025" summary="10/16/2016 - Update #4&#10;&#10;Completed:&#10;   - Transitioned everything that could be over to package-private.">
+      <created>1476669147273</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1476669147273</updated>
+    </task>
+    <task id="LOCAL-00026" summary="10/18/2016 - Update #1&#10;&#10;Completed:&#10;   - Fixed an error with the Contact class. Was causing the JAR'd version to throw hella errors.">
+      <created>1476805708205</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1476805708205</updated>
+    </task>
+    <task id="LOCAL-00027" summary="10/18/2016 - Update #2&#10;&#10;Completed:&#10;   - Fixed an error in the NewInvoice Screen.&#10;      - The &quot;Cancel&quot; button did not exit correctly.&#10;   - Added the New Project screen. Basic functionality is working, but does not update the database currently.">
+      <created>1476809010955</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1476809010955</updated>
+    </task>
+    <task id="LOCAL-00028" summary="10/18/2016 - Update #3&#10;&#10;Completed:&#10;   - Added New &gt; Invoice&#10;      - Basic functionality is established.&#10;   - Added New &gt; Contact&#10;      - Loads a small pop-up that asks which type of contact you would like to create.&#10;      - Full functionality established for this screen.&#10;      - Added New &gt; Contact &gt; Customer&#10;      - Added New &gt; Contact &gt; Project&#10;      - Added New &gt; Contact &gt; Supplier&#10;      - Added New &gt; Contact &gt; Vendor&#10;      - Basic functionality established for all 4 screens.">
+      <created>1476818774000</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1476818774000</updated>
+    </task>
+    <task id="LOCAL-00029" summary="10/18/2016 - Update #4&#10;&#10;Completed:&#10;   - Added New &gt; Customer&#10;      - Basic functionality is established.&#10;      - Country and State lists load correctly.&#10;&#10;I think the Customer tab is 90% complete?">
+      <created>1476824474777</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1476824474777</updated>
+    </task>
+    <task id="LOCAL-00030" summary="10/18/2016 - Update #5&#10;&#10;Completed:&#10;   - Began work on Employee Tab.&#10;   - The employee status loads correctly, and reloads when an action is performed upon it.&#10;   - The employee TreeView loads employee's by their type for easier management.&#10;   - Fixed a major issue with how the TreeView was loading children.&#10;      - The math in the for loops was incorrect and was skipping over Parents and giving children to the wrong parent.&#10;      - Adjusted how the math was being calculated and the issue was resolved.&#10;      - This issue occurred for both the Customers tab and the Employee tab.">
+      <created>1476832605074</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1476832605074</updated>
+    </task>
+    <task id="LOCAL-00031" summary="- Merging.">
+      <created>1477939203580</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1477939203580</updated>
+    </task>
+    <task id="LOCAL-00032" summary="10/31/16 - Update #1&#10;&#10;Completed:&#10;   - Completed transition from strings to objects for country and region in the New &amp; Edit Client controllers.">
+      <created>1477946413950</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1477946413950</updated>
+    </task>
+    <task id="LOCAL-00033" summary="10/31/16 - Update #3&#10;&#10;Completed:&#10;   - New Employee and Edit Employee Works.&#10;   - New Invoice Works.&#10;   &#10;Broke:&#10;   - I broke the EmployeeTreeView. Idk how... sorry mom!">
+      <created>1477972297888</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1477972297888</updated>
+    </task>
+    <task id="LOCAL-00034" summary="11/1/16 - Update #1&#10;&#10;Completed:&#10;   - Fixed the broken EmployeeTreeView.&#10;      - Had forgotten to set the employee's fullName value, and so it was blank.&#10;   - Fixed another issue with loading the new Employee screen.&#10;      - Had forgotten to establish a connection with the database.">
+      <created>1478004613074</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1478004613074</updated>
+    </task>
+    <task id="LOCAL-00035" summary="11/1/16 - Update #2&#10;&#10;Completed:&#10;   - Added status and type menu's to all contact screens.">
+      <created>1478006345621</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1478006345621</updated>
+    </task>
+    <task id="LOCAL-00036" summary="11/1/16 - Update #3&#10;&#10;Completed:&#10;   - Can now create Change orders.&#10;      - If no company or project is selected, a pop-up appears asking for that information.&#10;      - If a company is selected, a pop-up appears asking for project information.&#10;      - If a project is selected, the new change order form appears.">
+      <created>1478015634424</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1478015634424</updated>
+    </task>
+    <task id="LOCAL-00037" summary="11/1/16 - Update #4&#10;&#10;Completed:&#10;   - A bug was causing issues where if the edit button was clicked without anything being selected, it would throw a null pointer exception. This has been fixed.">
+      <created>1478016017757</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1478016017757</updated>
+    </task>
+    <task id="LOCAL-00038" summary="11/1/16 - Update #5&#10;&#10;Completed:&#10;   - Completed half of the change order form.">
+      <created>1478057562760</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1478057562760</updated>
+    </task>
+    <task id="LOCAL-00039" summary="11/2/16 - Update #1&#10;&#10;Completed:&#10;   - Change order form fully implemented.">
+      <created>1478131936489</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1478131936489</updated>
+    </task>
+    <task id="LOCAL-00040" summary="11/2/16 - Update #2&#10;&#10;Completed:&#10;   - New Employee Project Assignment fully implemented.&#10;   - New Employee Vehicle Assignment fully implemented.">
+      <created>1478138930017</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1478138930017</updated>
+    </task>
+    <task id="LOCAL-00041" summary="11/2/16 - Update #4&#10;&#10;Completed:&#10;   - New Employee form is complete.&#10;   - Edit Employee is fully implemented.">
+      <created>1478144679265</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1478144679265</updated>
+    </task>
+    <task id="LOCAL-00042" summary="11/2/16 - Minor Update #1&#10;&#10;Completed:&#10;   - Performed Code Analysis.">
+      <created>1478146453302</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1478146453302</updated>
+    </task>
+    <task id="LOCAL-00043" summary="11/4/16 - Update #1&#10;&#10;Completed:&#10;   - Employee's assigned projects now load up when you select the respective employee.">
+      <created>1478295826327</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1478295826327</updated>
+    </task>
+    <task id="LOCAL-00044" summary="hello">
+      <created>1478381860316</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1478381860316</updated>
+    </task>
+    <task id="LOCAL-00045" summary="11/6/2016 - Update #1&#10;&#10;Completed:&#10;   - Vehicles have been changed to hold a make and model object, rather than string.&#10;      - This makes it easier to retrieve information later, rather than hitting the database again.&#10;   - Vehicles Tab is now 50% complete.&#10;      - Need to implement the button functions and database updates.">
+      <created>1478476808945</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1478476808945</updated>
+    </task>
+    <task id="LOCAL-00046" summary="11/6/2016 - Update #1&#10;&#10;Completed:&#10;   - Vehicles have been changed to hold a make and model object, rather than string.&#10;      - This makes it easier to retrieve information later, rather than hitting the database again.&#10;   - Vehicles Tab is now 50% complete.&#10;      - Need to implement the button functions and database updates.">
+      <created>1478476926503</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1478476926503</updated>
+    </task>
+    <task id="LOCAL-00047" summary="11/6/2016 - Update #1&#10;&#10;Completed:&#10;   - Vehicles have been changed to hold a make and model object, rather than string.&#10;      - This makes it easier to retrieve information later, rather than hitting the database again.&#10;   - Vehicles Tab is now 50% complete.&#10;      - Need to implement the button functions and database updates.">
+      <created>1478476964556</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1478476964556</updated>
+    </task>
+    <task id="LOCAL-00048" summary="11/6/2016 - Update #2&#10;&#10;Completed:&#10;   - Updated new &amp; edit forms for client and employee.&#10;      - Changed some field sizes &amp; removed client type.">
+      <created>1478478068998</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1478478068998</updated>
+    </task>
+    <task id="LOCAL-00049" summary="11/6/2016 - Update #3&#10;&#10;Completed:&#10;   - Added some more features to the VehicleTab.&#10;   - Started working on how to display reports.">
+      <created>1478492696167</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1478492696167</updated>
+    </task>
+    <task id="LOCAL-00050" summary="11/7/2016 - Update #1&#10;&#10;Completed:&#10;   - Small change to the way that vehicle year's are generated.">
+      <created>1478615143315</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1478615143315</updated>
+    </task>
+    <task id="LOCAL-00051" summary="11/7/2016 - Update #2&#10;&#10;Completed:&#10;   - Finishing touches on the vehicle tab.">
+      <created>1478665337509</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1478665337510</updated>
+    </task>
+    <task id="LOCAL-00052" summary="11/8/2016 - Update #1&#10;&#10;Completed:&#10;   - Finished the back-end for the report viewer window.&#10;   - Provide a query to the db connection and it will pop up with the correct columns and rows in a table view.&#10;   - 100% tests so far.">
+      <created>1478701823943</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1478701823944</updated>
+    </task>
+    <task id="LOCAL-00053" summary="11/8/2016 - Update #2&#10;&#10;Completed:&#10;   - Customer screen now loads the appropriate edit screen depending on what has been selected.&#10;      - Options are Client, Project, Client Contact, Project Contact and Invoice.">
+      <created>1478709658372</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1478709658372</updated>
+    </task>
+    <task id="LOCAL-00054" summary="11/8/2016 - Update #3&#10;&#10;Completed:&#10;   - Employee screen now loads the appropriate edit screen depending on what has been selected.&#10;      - Options are Employee, Employee Assigned Project, and Employee Assigned Vehicle.">
+      <created>1478711519630</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1478711519630</updated>
+    </task>
+    <task id="LOCAL-00055" summary="11/11/16&#10;&#10;Pushing to work from another computer.">
+      <created>1478893054973</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1478893054973</updated>
+    </task>
+    <task id="LOCAL-00056" summary="11/13/16 - Update #1&#10;&#10;Completed:&#10;   - Editing any type of contact now works 100%.">
+      <created>1479083926984</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1479083926985</updated>
+    </task>
+    <task id="LOCAL-00057" summary="11/13/16 - Update #2&#10;&#10;Completed:&#10;   - Implemented employee history log.&#10;   - Wrapping up the program, it doesn't need to all be done for turning in.">
+      <created>1479091171570</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1479091171570</updated>
+    </task>
+    <task id="LOCAL-00058" summary="11/16/16 - Update #1&#10;&#10;Completed:&#10;   - Finished Report Tab.">
+      <created>1479328960102</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1479328960103</updated>
+    </task>
+    <task id="LOCAL-00059" summary="11/16/16 - Update #2&#10;&#10;Completed:&#10;   - Updated Employee Tab.">
+      <created>1479333286473</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1479333286473</updated>
+    </task>
+    <task id="LOCAL-00060" summary="11/17/16 - Update #1&#10;&#10;Completed:&#10;   - Finished Employee and Customer Tabs.">
+      <created>1479406341338</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1479406341339</updated>
+    </task>
+    <task id="LOCAL-00061" summary="11/17/16 - Update #2&#10;&#10;Completed:&#10;   - Finished Edit Invoice.">
+      <created>1479409038022</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1479409038022</updated>
+    </task>
+    <task id="LOCAL-00062" summary="11/17/16 - Update #3&#10;&#10;Completed:&#10;   - Started implementing new job data sheet form.">
+      <created>1479411788453</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1479411788453</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
+    <servers>
+      <Generic shared="false" url="https://app.asana.com/api/1.0">
+        <commitMessageFormat>{id} {summary}</commitMessageFormat>
+        <option name="downloadTasksInSeparateRequests" value="true" />
+        <password>dfecdfc8df8fdfcddfc7df9bdf98df99df9e</password>
+        <option name="loginAnonymously" value="false" />
+        <option name="loginMethodType" value="GET" />
+        <option name="loginUrl" value="" />
+        <option name="preferredCloseTaskState" />
+        <option name="preferredOpenTaskState" />
+        <option name="responseHandlers">
+          <XPathResponseHandler>
+            <selectors>
+              <selector name="tasks" path="" />
+              <selector name="id" path="" />
+              <selector name="summary" path="" />
+              <selector name="description" path="" />
+              <selector name="updated" path="" />
+              <selector name="created" path="" />
+              <selector name="issueUrl" path="" />
+              <selector name="singleTask-id" path="" />
+              <selector name="singleTask-summary" path="" />
+              <selector name="singleTask-description" path="" />
+              <selector name="singleTask-updated" path="" />
+              <selector name="singleTask-created" path="" />
+              <selector name="singleTask-issueUrl" path="" />
+            </selectors>
+          </XPathResponseHandler>
+          <JsonResponseHandler>
+            <selectors>
+              <selector name="tasks" path="data[*]" />
+              <selector name="id" path="id" />
+              <selector name="summary" path="name" />
+              <selector name="description" path="" />
+              <selector name="updated" path="" />
+              <selector name="created" path="" />
+              <selector name="closed" path="" />
+              <selector name="issueUrl" path="" />
+              <selector name="singleTask-id" path="data.id" />
+              <selector name="singleTask-summary" path="data.name" />
+              <selector name="singleTask-description" path="data.notes" />
+              <selector name="singleTask-updated" path="data.modified_at" />
+              <selector name="singleTask-created" path="data.created_at" />
+              <selector name="singleTask-closed" path="data.completed" />
+              <selector name="singleTask-issueUrl" path="" />
+            </selectors>
+          </JsonResponseHandler>
+          <RegExResponseHandler>
+            <option name="taskRegex" value="" />
+          </RegExResponseHandler>
+        </option>
+        <option name="responseType" value="JSON" />
+        <option name="shouldFormatCommitMessage" value="false" />
+        <option name="singleTaskMethodType" value="GET" />
+        <option name="singleTaskUrl" value="{serverUrl}/tasks/{id}" />
+        <option name="subtypeName" value="Asana [G]" />
+        <option name="tasksListMethodType" value="GET" />
+        <option name="tasksListUrl" value="{serverUrl}/projects/{project_ID}/tasks?assignee=me" />
+        <option name="templateVariables">
+          <list>
+            <TemplateVariable hidden="false" readOnly="false" shownOnFirstTab="true">
+              <option name="description" value="" />
+              <option name="name" value="project_ID" />
+              <option name="value" value="201273684705627" />
+            </TemplateVariable>
+          </list>
+        </option>
+        <option name="useHttpAuthentication" value="true" />
+        <option name="useProxy" value="false" />
+        <username>0/637edf1b42ca6db7317db268ec451651</username>
+      </Generic>
+    </servers>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="493886000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="3456" height="1426" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869297" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24593967" sideWeight="0.50294465" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21887085" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24361949" sideWeight="0.49705535" order="2" side_tool="false" content_ui="tabs" x="3719" y="259" width="1470" height="844" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869297" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19846879" sideWeight="0.49150622" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1704947" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13427562" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08922262" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39907193" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14279197" sideWeight="0.5084938" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869297" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869297" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3240526" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.35189483" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="3440" y="188" width="1920" height="1027" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32714617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24748647" sideWeight="0.50294465" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1704947" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08922262" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39964476" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294849" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32559937" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294849" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24748647" sideWeight="0.49705535" order="2" side_tool="false" content_ui="tabs" x="3719" y="259" width="1470" height="844" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.35189483" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="3440" y="188" width="1920" height="1027" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09216726" sideWeight="0.49150622" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32714617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14279197" sideWeight="0.5084938" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="11/1/16 - Update #3&#10;&#10;Completed:&#10;   - Can now create Change orders.&#10;      - If no company or project is selected, a pop-up appears asking for that information.&#10;      - If a company is selected, a pop-up appears asking for project information.&#10;      - If a project is selected, the new change order form appears." />
+    <MESSAGE value="11/1/16 - Update #4&#10;&#10;Completed:&#10;   - A bug was causing issues where if the edit button was clicked without anything being selected, it would throw a null pointer exception. This has been fixed." />
+    <MESSAGE value="11/1/16 - Update #5&#10;&#10;Completed:&#10;   - Completed half of the change order form." />
+    <MESSAGE value="11/2/16 - Update #1&#10;&#10;Completed:&#10;   - Change order form fully implemented." />
+    <MESSAGE value="11/2/16 - Update #2&#10;&#10;Completed:&#10;   - New Employee Project Assignment fully implemented.&#10;   - New Employee Vehicle Assignment fully implemented." />
+    <MESSAGE value="11/2/16 - Update #4&#10;&#10;Completed:&#10;   - New Employee form is complete.&#10;   - Edit Employee is fully implemented." />
+    <MESSAGE value="11/2/16 - Minor Update #1&#10;&#10;Completed:&#10;   - Performed Code Analysis." />
+    <MESSAGE value="11/4/16 - Update #1&#10;&#10;Completed:&#10;   - Employee's assigned projects now load up when you select the respective employee." />
+    <MESSAGE value="hello" />
+    <MESSAGE value="11/6/2016 - Update #1&#10;&#10;Completed:&#10;   - Vehicles have been changed to hold a make and model object, rather than string.&#10;      - This makes it easier to retrieve information later, rather than hitting the database again.&#10;   - Vehicles Tab is now 50% complete.&#10;      - Need to implement the button functions and database updates." />
+    <MESSAGE value="11/6/2016 - Update #2&#10;&#10;Completed:&#10;   - Updated new &amp; edit forms for client and employee.&#10;      - Changed some field sizes &amp; removed client type." />
+    <MESSAGE value="11/6/2016 - Update #3&#10;&#10;Completed:&#10;   - Added some more features to the VehicleTab.&#10;   - Started working on how to display reports." />
+    <MESSAGE value="11/7/2016 - Update #1&#10;&#10;Completed:&#10;   - Small change to the way that vehicle year's are generated." />
+    <MESSAGE value="11/7/2016 - Update #2&#10;&#10;Completed:&#10;   - Finishing touches on the vehicle tab." />
+    <MESSAGE value="11/8/2016 - Update #1&#10;&#10;Completed:&#10;   - Finished the back-end for the report viewer window.&#10;   - Provide a query to the db connection and it will pop up with the correct columns and rows in a table view.&#10;   - 100% tests so far." />
+    <MESSAGE value="11/8/2016 - Update #2&#10;&#10;Completed:&#10;   - Customer screen now loads the appropriate edit screen depending on what has been selected.&#10;      - Options are Client, Project, Client Contact, Project Contact and Invoice." />
+    <MESSAGE value="11/8/2016 - Update #3&#10;&#10;Completed:&#10;   - Employee screen now loads the appropriate edit screen depending on what has been selected.&#10;      - Options are Employee, Employee Assigned Project, and Employee Assigned Vehicle." />
+    <MESSAGE value="11/11/16&#10;&#10;Pushing to work from another computer." />
+    <MESSAGE value="11/13/16 - Update #1&#10;&#10;Completed:&#10;   - Editing any type of contact now works 100%." />
+    <MESSAGE value="11/13/16 - Update #2&#10;&#10;Completed:&#10;   - Implemented employee history log.&#10;   - Wrapping up the program, it doesn't need to all be done for turning in." />
+    <MESSAGE value="11/16/16 - Update #1&#10;&#10;Completed:&#10;   - Finished Report Tab." />
+    <MESSAGE value="11/16/16 - Update #2&#10;&#10;Completed:&#10;   - Updated Employee Tab." />
+    <MESSAGE value="11/17/16 - Update #1&#10;&#10;Completed:&#10;   - Finished Employee and Customer Tabs." />
+    <MESSAGE value="11/17/16 - Update #2&#10;&#10;Completed:&#10;   - Finished Edit Invoice." />
+    <MESSAGE value="11/17/16 - Update #3&#10;&#10;Completed:&#10;   - Started implementing new job data sheet form." />
+    <option name="LAST_COMMIT_MESSAGE" value="11/17/16 - Update #3&#10;&#10;Completed:&#10;   - Started implementing new job data sheet form." />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+    <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="65" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/model/client/ClientContact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/model/client/ClientContactBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="30" column="70" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/new_form_controller/customer_screen/NewClientContactController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="976">
+          <caret line="147" column="4" selection-start-line="147" selection-start-column="4" selection-end-line="147" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/edit_forms/editClientContact.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="28" selection-start-line="16" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/model/contact/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="62" column="70" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/new_form_controller/customer_screen/NewSupplierContactController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="141" column="39" selection-start-line="141" selection-start-column="39" selection-end-line="141" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/database_connector/SupplierDBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="212" column="4" selection-start-line="212" selection-start-column="4" selection-end-line="212" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/database_connector/VendorDBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="186" column="5" selection-start-line="186" selection-start-column="5" selection-end-line="186" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/edit_form_controller/employee_screen/EditEVAController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/edit_form_controller/employee_screen/EditEPAController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/edit_form_controller/employee_screen/EditEmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/model/employee/EmployeeHistory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/database_connector/ProjectDBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="301" column="0" selection-start-line="301" selection-start-column="0" selection-end-line="301" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/new_forms/newJobType.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/main_forms/mainApplication.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="904">
+          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/main_forms/reportTab.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../../../Documents/Programming/Eclipse Projects/workspace/Nicholson Plumbing/src/com/nicholson_plumbing_old/demo_gui_v2/NPLoadingScreen.java" />
+    <entry file="file://$PROJECT_DIR$/src/resources/main_forms/loadingScreen.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/main_form_controller/LoadingScreenController.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/common/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="26" column="74" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
+          <folding>
+            <element signature="docComment;method#main#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/edit_forms/editInvoice.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/edit_form_controller/customer_screen/EditProjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="153" column="21" selection-start-line="153" selection-start-column="21" selection-end-line="153" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/main_form_controller/ReportController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="120" column="5" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/model/project/ProjectBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/model/project/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/23f2f308-6695-4eb6-a3b9-b6ffa91e216a/console.sql" />
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/database_connector/EmployeeDBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="899" column="93" selection-start-line="899" selection-start-column="93" selection-end-line="899" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/main_form_controller/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="797">
+          <caret line="298" column="4" selection-start-line="298" selection-start-column="4" selection-end-line="298" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/model/invoice/InvoiceBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-274">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/model/invoice/Invoice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/edit_form_controller/customer_screen/EditProjectContactController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="120" column="66" selection-start-line="120" selection-start-column="66" selection-end-line="120" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/edit_form_controller/customer_screen/EditClientContactController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="119" column="66" selection-start-line="119" selection-start-column="66" selection-end-line="119" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/edit_form_controller/customer_screen/EditVendorContactController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="121" column="66" selection-start-line="121" selection-start-column="66" selection-end-line="121" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/edit_form_controller/customer_screen/EditSupplierContactController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="121" column="67" selection-start-line="121" selection-start-column="67" selection-end-line="121" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/database_connector/CustomerDBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="145" column="26" selection-start-line="145" selection-start-column="26" selection-end-line="145" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/new_form_controller/customer_screen/NewProjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/new_form_controller/customer_screen/NewInvoiceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1341">
+          <caret line="218" column="4" selection-start-line="218" selection-start-column="4" selection-end-line="218" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/common_controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/edit_form_controller/customer_screen/EditClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="147" column="44" selection-start-line="147" selection-start-column="44" selection-end-line="147" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/common_controller/ContactController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/database_connector/InvoiceDBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="130" column="4" selection-start-line="130" selection-start-column="4" selection-end-line="130" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/edit_form_controller/customer_screen/EditInvoiceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/new_forms/newJobDataSheet.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="316" selection-start-line="12" selection-start-column="316" selection-end-line="12" selection-end-column="316" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/main_form_controller/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="176" column="4" selection-start-line="176" selection-start-column="4" selection-end-line="176" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/main_forms/customerTab.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="61" column="55" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/new_form_controller/customer_screen/NewChangeOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="322" column="5" selection-start-line="322" selection-start-column="5" selection-end-line="322" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/new_form_controller/customer_screen/NewClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="115" column="13" selection-start-line="109" selection-start-column="0" selection-end-line="117" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/model/job_data_sheet/BondCompany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/model/job_data_sheet/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/controller/new_form_controller/customer_screen/NewJDSController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="53" column="53" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nicholsonplumbingtx/v2/database_connector/DBConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="64" column="39" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1479256677370" expanded="true" signature="1188:1215" ph="SELECT * FRO... ContactStatus" />
+            <marker date="1479256677370" expanded="true" signature="2308:2333" ph="SELECT * FRO... ContactType" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Duke_GUI:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Duke_GUI</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>sqljdbc42</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

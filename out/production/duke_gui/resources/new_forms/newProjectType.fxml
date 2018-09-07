@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ecf0f1;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="71.0" layoutY="33.0" />
+            <Label layoutX="79.0" layoutY="150.0" text="Description" />
+            <TextArea layoutX="89.0" layoutY="180.0" prefHeight="92.0" prefWidth="399.0" />
+            <Button layoutX="502.0" layoutY="302.0" mnemonicParsing="false" text="Create" />
+            <Button layoutX="24.0" layoutY="302.0" mnemonicParsing="false" text="Cancel " />
+            <Label layoutX="79.0" layoutY="63.0" text="New Project Type: " />
+            <TextField layoutX="191.0" layoutY="59.0" prefHeight="25.0" prefWidth="187.0" />
+         </children>
+      </AnchorPane>
+   </center>
+   <top>
+      <Label prefHeight="49.0" prefWidth="139.0" text="New Project Type" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </top>
+</BorderPane>

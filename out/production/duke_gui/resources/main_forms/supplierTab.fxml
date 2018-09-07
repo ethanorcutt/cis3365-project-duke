@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane style="-fx-background-color: #2c3e50;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nicholsonplumbingtx.v2.controller.main_form_controller.CustomerController">
+   <children>
+      <Pane layoutX="284.0" prefHeight="668.0" prefWidth="852.0" style="-fx-background-color: #ecf0f1;" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="284.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0">
+         <children>
+            <Label fx:id="projectNameLabel" layoutX="41.0" layoutY="46.0" text="Supplier Address">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="contractorNameLabel" layoutX="14.0" layoutY="14.0" text="Supplier Name">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="13.0" layoutY="264.0" text="Contacts" />
+            <Label layoutX="14.0" layoutY="82.0" text="Products Available" />
+            <Label layoutX="18.0" layoutY="447.0" text="Order History" />
+            <TableView fx:id="customerInvoiceTable" layoutX="13.0" layoutY="281.0" prefHeight="146.0" prefWidth="825.0">
+               <columns>
+                  <TableColumn fx:id="invoiceTableProject" prefWidth="176.0" text="Name" />
+                  <TableColumn fx:id="invoiceTableProject1" prefWidth="125.0" text="Status" />
+                  <TableColumn fx:id="invoiceTableAmount" prefWidth="191.0" text="Phone Number" />
+                  <TableColumn fx:id="invoiceTableDaysOutstanding" prefWidth="284.0" text="Email" />
+               </columns>
+            </TableView>
+            <TableView fx:id="customerContactTable" layoutX="13.0" layoutY="99.0" prefHeight="146.0" prefWidth="825.0">
+               <columns>
+                  <TableColumn fx:id="contactTableName" prefWidth="219.0" text="Name" />
+                  <TableColumn fx:id="contactTablePhone" prefWidth="605.0" style="-fx-alignment: CENTER;" text="Description" />
+               </columns>
+            </TableView>
+            <Separator layoutX="14.0" layoutY="436.0" prefHeight="0.0" prefWidth="825.0" />
+            <ButtonBar layoutX="658.0" layoutY="35.0">
+               <buttons>
+                  <MenuButton mnemonicParsing="false" text="New">
+                     <items>
+                        <MenuItem fx:id="newCustomerMenuItem" mnemonicParsing="false" text="Customer" />
+                        <MenuItem fx:id="newProjectMenuItem" mnemonicParsing="false" text="Project" />
+                        <MenuItem fx:id="newContactMenuItem" mnemonicParsing="false" text="Contact" />
+                        <MenuItem fx:id="newInvoiceMenuItem" mnemonicParsing="false" text="Invoice" />
+                        <MenuItem fx:id="newChangeOrderMenuItem" mnemonicParsing="false" text="Change Order" />
+                     </items>
+                  </MenuButton>
+                  <Button fx:id="customersEdit" mnemonicParsing="false" text="Edit" />
+               </buttons>
+            </ButtonBar>
+            <Separator layoutX="14.0" layoutY="73.0" prefHeight="0.0" prefWidth="825.0" />
+            <Separator layoutX="14.0" layoutY="254.0" prefHeight="0.0" prefWidth="825.0" />
+            <TableView fx:id="customerInvoiceTable1" layoutX="13.0" layoutY="464.0" prefHeight="191.0" prefWidth="825.0">
+               <columns>
+                  <TableColumn fx:id="invoiceTableAmount1" prefWidth="114.0" text="Order Date" />
+                  <TableColumn fx:id="invoiceTableProject1" prefWidth="128.0" text="Order Number" />
+                  <TableColumn fx:id="invoiceTableProject12" prefWidth="131.0" text="Total Amount" />
+                  <TableColumn fx:id="invoiceTableProject11" prefWidth="202.0" text="Status" />
+                  <TableColumn fx:id="invoiceTableDaysOutstanding1" prefWidth="249.0" text="Project" />
+               </columns>
+            </TableView>
+         </children>
+      </Pane>
+      <VBox fx:id="customerVBox" layoutX="14.0" layoutY="14.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="668.0" prefWidth="260.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0">
+         <children>
+            <ComboBox fx:id="customerStatus" onMousePressed="#updateClientStatus" prefHeight="25.0" prefWidth="260.0" />
+            <Separator opacity="0.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Separator>
+            <TreeView fx:id="customerTreeView" nodeOrientation="LEFT_TO_RIGHT" prefHeight="643.0" prefWidth="260.0" VBox.vgrow="ALWAYS">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </TreeView>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nicholsonplumbingtx.v2.controller.main_form_controller.ReportViewerController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="870.0" style="-fx-background-color: #2c3e50;" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="reportTableView" editable="true" layoutX="500.0" layoutY="224.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0" />
+         </children>
+      </AnchorPane>
+   </center>
+   <top>
+      <Label alignment="CENTER" prefHeight="53.0" prefWidth="1.06212E7" style="-fx-background-color: #ecf0f1;" text="Report Viewer" BorderPane.alignment="TOP_LEFT">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+   </top>
+</BorderPane>

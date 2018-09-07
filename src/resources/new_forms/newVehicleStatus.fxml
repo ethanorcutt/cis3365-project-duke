@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ComboBox layoutX="19.0" layoutY="34.0" prefWidth="150.0" promptText="Vehicle ID" />
+      <TableView layoutX="19.0" layoutY="294.0" prefHeight="251.0" prefWidth="566.0">
+        <columns>
+          <TableColumn prefWidth="62.0" text="Vehicle ID" />
+            <TableColumn prefWidth="68.0" text="Make" />
+            <TableColumn prefWidth="92.0" text="Model" />
+            <TableColumn prefWidth="85.0" text="License Plate" />
+            <TableColumn prefWidth="79.0" text="Type" />
+            <TableColumn prefWidth="179.0" text="Description" />
+        </columns>
+      </TableView>
+      <Button layoutX="467.0" layoutY="157.0" mnemonicParsing="false" text="Update" />
+      <Button layoutX="468.0" layoutY="199.0" mnemonicParsing="false" text="Search" />
+      <Button layoutX="468.0" layoutY="246.0" mnemonicParsing="false" text="Cancel" />
+      <TextField layoutX="420.0" layoutY="34.0" promptText="License Plate" />
+      <TextArea layoutX="19.0" layoutY="147.0" prefHeight="131.0" prefWidth="379.0" promptText="Description" />
+      <DatePicker layoutX="201.0" layoutY="34.0" promptText="Date Modified" />
+      <ComboBox layoutX="19.0" layoutY="103.0" prefWidth="150.0" promptText="Type" />
+   </children>
+</AnchorPane>

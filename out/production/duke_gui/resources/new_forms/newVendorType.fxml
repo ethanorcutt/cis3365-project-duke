@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <Label prefHeight="44.0" prefWidth="147.0" text="New Vendor Type " BorderPane.alignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ecf0f1;" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="512.0" layoutY="320.0" mnemonicParsing="false" text="Submit " />
+            <Button layoutX="32.0" layoutY="320.0" mnemonicParsing="false" text="Cancel " />
+            <Label layoutX="116.0" layoutY="100.0" text="New Vendor Type: " />
+            <Label layoutX="116.0" layoutY="161.0" text="Description: " />
+            <TextArea layoutX="134.0" layoutY="188.0" prefHeight="98.0" prefWidth="358.0" />
+            <TextField layoutX="217.0" layoutY="96.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="Duke_GUI:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Duke_GUI_jar</output-path>
+    <root id="root">
+      <element id="archive" name="Duke_GUI.jar">
+        <element id="module-output" name="Duke_GUI" />
+      </element>
+      <element id="library" level="project" name="sqljdbc42" />
+      <element id="library" level="project" name="commons-dbutils-1.6" />
+      <element id="library" level="project" name="controlsfx-8.40.12" />
+    </root>
+  </artifact>
+</component>

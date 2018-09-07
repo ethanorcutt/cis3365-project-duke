@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane style="-fx-background-color: #2c3e50;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nicholsonplumbingtx.v2.controller.main_form_controller.CustomerController">
+   <children>
+      <Pane layoutX="284.0" prefHeight="668.0" prefWidth="852.0" style="-fx-background-color: #ecf0f1;" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="284.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0">
+         <children>
+            <Label fx:id="projectNameLabel" layoutX="41.0" layoutY="46.0" text="Project Name">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="contractorNameLabel" layoutX="14.0" layoutY="14.0" text="Contractor Name">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="426.0" layoutY="284.0" text="Invoices" />
+            <Label layoutX="424.0" layoutY="97.0" text="Contacts" />
+            <Label layoutX="18.0" layoutY="504.0" text="Notes" />
+            <TableView fx:id="customerInvoiceTable" layoutX="416.0" layoutY="301.0" prefHeight="146.0" prefWidth="422.0">
+               <columns>
+                  <TableColumn fx:id="invoiceTableProject" prefWidth="148.0" text="Project" />
+                  <TableColumn fx:id="invoiceTableAmount" prefWidth="146.0" text="Amount Due" />
+                  <TableColumn fx:id="invoiceTableDaysOutstanding" prefWidth="113.0" text="Date Created" />
+               </columns>
+            </TableView>
+            <TextArea fx:id="cPNotesBox" layoutX="14.0" layoutY="521.0" prefHeight="135.0" prefWidth="825.0" wrapText="true" />
+            <TableView fx:id="customerContactTable" layoutX="416.0" layoutY="114.0" prefHeight="146.0" prefWidth="422.0">
+               <columns>
+                  <TableColumn fx:id="contactTableName" prefWidth="101.0" text="Name" />
+                  <TableColumn fx:id="contactTablePhone" prefWidth="90.0" style="-fx-alignment: CENTER;" text="Phone" />
+                  <TableColumn fx:id="contactTableEmail" minWidth="175.0" prefWidth="229.0" text="Email" />
+               </columns>
+            </TableView>
+            <Separator layoutX="14.0" layoutY="474.0" prefHeight="0.0" prefWidth="825.0" />
+            <ButtonBar layoutX="658.0" layoutY="35.0">
+               <buttons>
+                  <MenuButton mnemonicParsing="false" text="New">
+                     <items>
+                        <MenuItem fx:id="newCustomerMenuItem" mnemonicParsing="false" text="Customer" />
+                        <MenuItem fx:id="newProjectMenuItem" mnemonicParsing="false" text="Project" />
+                        <MenuItem fx:id="newContactMenuItem" mnemonicParsing="false" text="Contact" />
+                        <MenuItem fx:id="newInvoiceMenuItem" mnemonicParsing="false" text="Invoice" />
+                        <MenuItem fx:id="newChangeOrderMenuItem" mnemonicParsing="false" text="Change Order" />
+                        <MenuItem fx:id="newJDSMenuItem" mnemonicParsing="false" text="Job Data Sheet" />
+                     </items>
+                  </MenuButton>
+                  <Button fx:id="customersEdit" mnemonicParsing="false" text="Edit" />
+               </buttons>
+            </ButtonBar>
+            <Separator layoutX="14.0" layoutY="73.0" prefHeight="0.0" prefWidth="825.0" />
+            <Separator layoutX="399.0" layoutY="85.0" orientation="VERTICAL" prefHeight="380.0" prefWidth="6.0" />
+            <Label layoutX="23.0" layoutY="97.0" text="Information">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="infoFieldOne" layoutX="101.0" layoutY="114.0" text="Phone Number" />
+            <Label fx:id="infoFieldTwo" layoutX="101.0" layoutY="137.0" text="Email Address" />
+            <Label fx:id="infoFieldThree" layoutX="101.0" layoutY="160.0" text="Address Line One" />
+            <Label fx:id="labelOne" layoutX="35.0" layoutY="114.0" text="Start Date:" />
+            <Label fx:id="labelTwo" layoutX="35.0" layoutY="137.0" text="Start Date:" />
+            <Label fx:id="labelThree" layoutX="35.0" layoutY="160.0" text="Start Date:" />
+         </children>
+      </Pane>
+      <VBox fx:id="customerVBox" layoutX="14.0" layoutY="14.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="668.0" prefWidth="260.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0">
+         <children>
+            <ComboBox fx:id="customerStatus" onMousePressed="#updateClientStatus" prefHeight="25.0" prefWidth="260.0" />
+            <Separator opacity="0.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Separator>
+            <TreeView fx:id="customerTreeView" nodeOrientation="LEFT_TO_RIGHT" prefHeight="643.0" prefWidth="260.0" VBox.vgrow="ALWAYS">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </TreeView>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

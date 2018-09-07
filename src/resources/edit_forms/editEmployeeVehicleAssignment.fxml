@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="325.0" prefWidth="415.0" style="-fx-background-color: #2c3e50;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nicholsonplumbingtx.v2.controller.edit_form_controller.employee_screen.EditEVAController">
+   <children>
+      <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ecf0f1;" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <ComboBox fx:id="vehicleComboBox" layoutX="218.0" layoutY="93.0" prefWidth="150.0" />
+            <Label layoutX="76.0" layoutY="71.0" text="Employee" />
+            <Label layoutX="273.0" layoutY="71.0" text="Vehicle" />
+            <Button fx:id="submitButton" layoutX="172.0" layoutY="266.0" mnemonicParsing="false" onAction="#submitButtonAction" text="Submit" AnchorPane.bottomAnchor="11.0" />
+            <Label layoutX="99.0" layoutY="21.0" text="Employee Vehicle Assignment" AnchorPane.topAnchor="20.0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="notesBox" layoutX="28.0" layoutY="153.0" prefHeight="104.0" prefWidth="341.0" />
+            <Label layoutX="29.0" layoutY="136.0" text="Notes:" />
+            <TextField fx:id="employeeTextField" editable="false" layoutX="24.0" layoutY="93.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

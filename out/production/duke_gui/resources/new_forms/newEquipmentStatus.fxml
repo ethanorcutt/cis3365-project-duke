@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ComboBox layoutX="19.0" layoutY="34.0" prefWidth="150.0" promptText="Equipment ID" />
+      <TableView layoutX="19.0" layoutY="294.0" prefHeight="251.0" prefWidth="566.0">
+        <columns>
+          <TableColumn prefWidth="98.0" text="Equipment ID" />
+          <TableColumn prefWidth="63.0" text="Type" />
+            <TableColumn prefWidth="61.0" text="Count" />
+            <TableColumn minWidth="0.0" prefWidth="0.0" text="Column X" />
+            <TableColumn minWidth="0.0" prefWidth="0.0" text="Column X" />
+            <TableColumn prefWidth="75.0" text="Status" />
+            <TableColumn prefWidth="267.0" text="Description" />
+        </columns>
+      </TableView>
+      <ComboBox layoutX="207.0" layoutY="34.0" prefWidth="150.0" promptText="Type" />
+      <TextArea layoutX="19.0" layoutY="149.0" prefHeight="134.0" prefWidth="375.0" promptText="Description" />
+      <Button layoutX="468.0" layoutY="149.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" text="Search" />
+      <Button layoutX="469.0" layoutY="191.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" text="Update" />
+      <Button layoutX="469.0" layoutY="238.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="66.0" text="Cancel" />
+      <TextField layoutX="395.0" layoutY="34.0" promptText="License Plate" text="Count" />
+      <ComboBox layoutX="19.0" layoutY="92.0" prefWidth="150.0" promptText="Status" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane style="-fx-background-color: #2c3e50;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nicholsonplumbingtx.v2.controller.main_form_controller.VehicleController">
+   <children>
+      <Pane layoutX="14.0" layoutY="14.0" prefHeight="668.0" prefWidth="1122.0" style="-fx-background-color: #ecf0f1;" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0">
+         <children>
+            <Label layoutX="151.0" layoutY="337.0" text="Vehicle Log" />
+            <Separator layoutX="150.0" layoutY="333.0" prefHeight="0.0" prefWidth="825.0" />
+            <ButtonBar layoutX="658.0" layoutY="35.0" />
+            <Separator layoutX="150.0" layoutY="73.0" prefHeight="0.0" prefWidth="825.0" />
+            <Separator layoutX="573.0" layoutY="87.0" orientation="VERTICAL" prefHeight="233.0" prefWidth="0.0" />
+            <ComboBox fx:id="yearComboBox" layoutX="328.0" layoutY="35.0" prefWidth="150.0" promptText="Year" />
+            <ComboBox fx:id="makeComboBox" layoutX="487.0" layoutY="35.0" prefWidth="150.0" promptText="Make" />
+            <ComboBox fx:id="modelComboBox" layoutX="646.0" layoutY="35.0" prefWidth="150.0" promptText="Model" />
+            <TextField fx:id="licensePlateField" editable="false" layoutX="805.0" layoutY="35.0" promptText="License Plate" />
+            <TableView fx:id="vehicleLogTable" layoutX="150.0" layoutY="358.0" prefHeight="300.0" prefWidth="825.0">
+               <columns>
+                  <TableColumn fx:id="fleetIDColumn" prefWidth="104.0" text="Fleet Number" />
+                  <TableColumn fx:id="yearColumn" prefWidth="61.0" text="Year" />
+                  <TableColumn fx:id="makeColumn" prefWidth="94.0" text="Make" />
+                  <TableColumn fx:id="modelColumn" prefWidth="112.0" text="Model" />
+                  <TableColumn fx:id="plateColumn" prefWidth="124.0" text="License Plate" />
+                  <TableColumn fx:id="statusColumn" prefWidth="103.0" text="Status" />
+                  <TableColumn fx:id="typeColumn" prefWidth="103.0" text="Type" />
+               </columns>
+            </TableView>
+            <TextArea fx:id="descriptionBox" layoutX="169.0" layoutY="114.0" prefHeight="180.0" prefWidth="380.0" promptText="Description" />
+            <Button fx:id="createButton" layoutX="681.0" layoutY="188.0" mnemonicParsing="false" onAction="#createButtonAction" text="Create" />
+            <Button fx:id="editButton" layoutX="771.0" layoutY="188.0" mnemonicParsing="false" onAction="#editButtonAction" prefHeight="25.0" prefWidth="51.0" text="Edit" />
+            <Button fx:id="deleteButton" layoutX="861.0" layoutY="188.0" mnemonicParsing="false" onAction="#deleteActionButton" text="Delete" />
+            <ComboBox fx:id="fleetNumberComboBox" layoutX="169.0" layoutY="35.0" prefWidth="150.0" promptText="Fleet Number" />
+            <ComboBox fx:id="statusComboBox" layoutX="991.0" layoutY="629.0" prefHeight="25.0" prefWidth="116.0" promptText="Vehicle Status" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

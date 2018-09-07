@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nicholsonplumbingtx.v2.controller.new_form_controller.customer_screen.NewJDSController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #2c3e50;" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane layoutX="11.0" layoutY="11.0" prefHeight="400.0" prefWidth="578.0" style="-fx-background-color: #ecf0f1;" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0">
+               <children>
+                  <Label layoutX="10.0" layoutY="15.0" text="Customer Information">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="createButton" layoutX="511.0" layoutY="384.0" mnemonicParsing="false" onAction="#createButtonAction" text="Create" />
+                  <Button fx:id="cancelButton" layoutX="10.0" layoutY="384.0" mnemonicParsing="false" onAction="#cancelButtonAction" text="Cancel " />
+                  <Label layoutX="40.0" layoutY="53.0" text="Customer:" />
+                  <Label layoutX="54.0" layoutY="88.0" text="Project:" />
+                  <Label layoutX="65.0" layoutY="123.0" text="Bank:" />
+                  <Label layoutX="10.0" layoutY="158.0" text="Bond Company:" />
+                  <Label layoutX="307.0" layoutY="176.0" text="Materials Amount:" />
+                  <TextField fx:id="estimatedMaterialsField" layoutX="410.0" layoutY="172.0" prefHeight="25.0" prefWidth="130.0" />
+                  <ComboBox fx:id="customerComboBox" layoutX="99.0" layoutY="49.0" prefWidth="150.0" />
+                  <ComboBox fx:id="projectComboBox" layoutX="99.0" layoutY="84.0" prefWidth="150.0" />
+                  <ComboBox fx:id="bankComboBox" layoutX="99.0" layoutY="119.0" prefWidth="150.0" />
+                  <ComboBox fx:id="bondCompanyComboBox" layoutX="100.0" layoutY="154.0" prefWidth="150.0" />
+                  <CheckBox fx:id="publicWorksCB" layoutX="166.0" layoutY="249.0" mnemonicParsing="false" text="Public Works" />
+                  <Label layoutX="323.0" layoutY="71.0" text="Parcel Number:" />
+                  <TextField fx:id="parcelField" layoutX="410.0" layoutY="67.0" prefHeight="25.0" prefWidth="90.0" />
+                  <Label layoutX="327.0" layoutY="141.0" text="Bond Number:" />
+                  <TextField fx:id="bondField" layoutX="410.0" layoutY="137.0" prefHeight="25.0" prefWidth="90.0" />
+                  <CheckBox fx:id="residentialCB" layoutX="321.0" layoutY="290.0" mnemonicParsing="false" text="Residential" />
+                  <CheckBox fx:id="commercialCB" layoutX="321.0" layoutY="249.0" mnemonicParsing="false" text="Commercial" />
+                  <CheckBox fx:id="taxExemptCB" layoutX="166.0" layoutY="290.0" mnemonicParsing="false" text="Tax Exempt" />
+                  <Label layoutX="337.0" layoutY="106.0" text="Job Number:" />
+                  <TextField fx:id="jobField" layoutX="410.0" layoutY="102.0" prefHeight="25.0" prefWidth="90.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </center>
+   <top>
+      <Label alignment="CENTER" prefHeight="53.0" prefWidth="602.0" style="-fx-background-color: #ecf0f1;" text="New Job Data Sheet" BorderPane.alignment="TOP_LEFT">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+   </top>
+</BorderPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="SQL Server (Microsoft) - dukeDB@localhost" uuid="23f2f308-6695-4eb6-a3b9-b6ffa91e216a">
+      <database-info product="Microsoft SQL Server" version="12.00.4213" jdbc-version="4.0" driver-name="Microsoft JDBC Driver 4.0 for SQL Server" driver-version="4.0.2206.100">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>dukeConnector</user-name>
+      <resolve-scope>dukeDB:*</resolve-scope>
+    </data-source>
+  </component>
+</project>

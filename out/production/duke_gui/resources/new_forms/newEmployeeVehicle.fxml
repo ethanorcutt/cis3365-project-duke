@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea layoutX="32.0" layoutY="14.0" prefHeight="0.0" prefWidth="293.0" text="Employee Vehicle Assignment">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextArea>
+      <TextArea layoutX="32.0" layoutY="89.0" prefHeight="37.0" prefWidth="81.0" text="EmployeeID" />
+      <TextField layoutX="135.0" layoutY="95.0" prefHeight="25.0" prefWidth="183.0" />
+      <TextArea layoutX="32.0" layoutY="138.0" prefHeight="38.0" prefWidth="81.0" text="VehicleID" />
+      <TextField layoutX="135.0" layoutY="145.0" prefHeight="25.0" prefWidth="183.0" />
+      <TextArea layoutX="32.0" layoutY="186.0" prefHeight="38.0" prefWidth="81.0" text="Description" />
+      <TextField layoutX="135.0" layoutY="188.0" prefHeight="159.0" prefWidth="183.0" />
+      <TextArea layoutX="357.0" layoutY="89.0" prefHeight="9.0" prefWidth="89.0" text="Date Return" />
+      <DatePicker layoutX="357.0" layoutY="145.0" />
+      <Button layoutX="444.0" layoutY="347.0" mnemonicParsing="false" text="OK" />
+      <Button layoutX="505.0" layoutY="347.0" mnemonicParsing="false" text="Cancel" />
+   </children>
+</Pane>
